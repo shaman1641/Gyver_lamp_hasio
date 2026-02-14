@@ -1,0 +1,13 @@
+{
+  "domain": "gyver_lamp",
+  "name": "Gyver Lamp MQTT",
+  "codeowners": ["@shaman1641"],
+  "config_flow": true,
+  "dependencies": ["mqtt"],
+  "documentation": "https://github.com/shaman1641/Gyver_lamp_hasio",
+  "iot_class": "local_push",
+  "issue_tracker": "https://github.com/shaman1641/Gyver_lamp_hasio/issues",
+  "version": "1.0.0",
+  "requirements": [],
+  "homeassistant": "2023.1.0"
+}
