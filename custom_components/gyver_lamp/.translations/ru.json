@@ -2,28 +2,8 @@
   "config": {
     "step": {
       "user": {
-        "title": "Настройка лампы Гайвера",
-        "description": "Введите топики вашей лампы в MQTT",
-        "data": {
-          "name": "Имя лампы",
-          "command_topic": "Топик команд",
-          "state_topic": "Топик состояния"
-        }
-      }
-    },
-    "error": {
-      "cannot_connect": "Невозможно подключиться",
-      "invalid_auth": "Неверная аутентификация",
-      "unknown": "Неизвестная ошибка"
-    },
-    "abort": {
-      "already_configured": "Устройство уже настроено"
-    }
-  },
-  "options": {
-    "step": {
-      "init": {
-        "title": "Настройки лампы Гайвера",
+        "title": "Лампа Гайвера MQTT",
+        "description": "Введите параметры подключения лампы",
         "data": {
           "name": "Имя лампы",
           "command_topic": "Топик команд",

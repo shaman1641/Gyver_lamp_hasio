@@ -7,32 +7,6 @@
           "command_topic": "Топик команд",
           "state_topic": "Топик состояния"
         }
-      },
-      "init": {
-        "data": {
-          "name": "Имя лампы",
-          "command_topic": "Топик команд",
-          "state_topic": "Топик состояния"
-        }
-      }
-    },
-    "error": {
-      "cannot_connect": "Невозможно подключиться",
-      "invalid_auth": "Неверная аутентификация",
-      "unknown": "Неизвестная ошибка"
-    },
-    "abort": {
-      "already_configured": "Устройство уже настроено"
-    }
-  },
-  "options": {
-    "step": {
-      "init": {
-        "data": {
-          "name": "Имя лампы",
-          "command_topic": "Топик команд",
-          "state_topic": "Топик состояния"
-        }
       }
     }
   }
